@@ -1,0 +1,21 @@
+#form3 {
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+
+#form3 thead {
+    background-color: #bb9179;
+}
+
+#form3 tbody td {
+    border: 1px solid #bb9179;
+    width: calc(100% / 9);
+}
+
+.added {
+    color: rgb(147, 147, 147);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+

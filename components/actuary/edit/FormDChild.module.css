@@ -1,0 +1,123 @@
+#childform thead input {
+    color: white;
+    font-weight: bold;
+}
+
+#childform tbody td {
+    border: 1px solid #774355;
+    width: 10%;
+    text-align: center;
+}
+
+#childform tbody input {
+    background-color: rgba(234, 150, 150, 0);
+}
+
+#childform input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+.info {
+    font-weight: 800;
+    background-color: #774355;
+    color: rgb(255, 255, 255);
+    border: 2px solid #774355;
+    }
+
+    .info td {
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .info input {
+        background-color: rgba(234, 150, 150, 0);
+    }
+
+    .info button {
+        background-color: #000000d1;
+    }
+
+
+#item0, #item1, #item2 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#item3 {
+    background-color: rgba(87, 10, 10, 0.2);
+}
+
+#item4 {
+    background-color: rgba(18, 58, 15, 0.2);
+}
+
+#item5 {
+    background-color: rgba(8, 5, 150, 0.2);
+}
+
+#item6 {
+    background-color: rgba(167, 83, 38, 0.2);
+}
+
+#item7 {
+    background-color: rgba(11, 140, 190, 0.2);
+}
+
+#item8 {
+    background-color: rgba(50, 0, 116, 0.2);
+}
+
+#item9 {
+    background-color: rgba(4, 135, 107, 0.2);
+}
+
+#item10 {
+    background-color: rgba(168, 3, 69, 0.2);
+}
+
+#item11 {
+    background-color: rgba(133, 12, 181, 0.2);
+}
+
+/* .content0, .content1, .content2 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content3 {
+    background-color: rgba(87, 10, 10, 0.1);
+}
+
+.content4 {
+    background-color: rgba(18, 58, 15, 0.1);
+}
+
+.content5 {
+    background-color: rgba(8, 5, 150, 0.1);
+}
+
+.content6 {
+    background-color: rgba(167, 83, 38, 0.1);
+}
+
+.content7 {
+    background-color: rgba(11, 140, 190, 0.1);
+}
+
+.content8 {
+    background-color: rgba(50, 0, 116, 0.1);
+}
+
+.content9 {
+    background-color: rgba(4, 135, 107, 0.1);
+}
+
+.content10 {
+    background-color: rgba(168, 3, 69, 0.1);
+}
+
+.content11 {
+    background-color: rgba(133, 12, 181, 0.1);
+}
+*/
+
+
+

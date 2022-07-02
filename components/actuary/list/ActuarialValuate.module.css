@@ -1,0 +1,96 @@
+.wrapper {
+    padding: 1rem;
+    width: 100%;
+    }
+
+    .wrapper h1 {
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 2rem;
+        margin: auto;
+        width: 96%;
+        background-color: rgb(255, 197, 197);
+        border-bottom: 3px solid rgb(255, 255, 255);
+    }
+
+    .table {
+        border: 3px solid rgb(51, 51, 51);
+        font-size: 1.5rem;
+        width: 96%;
+        display: grid;
+        margin: auto;
+        text-align: center;
+        border-top: none;
+    }
+
+    .table li {
+        list-style: none;
+    }
+
+
+    .table thead {
+        background-color: rgb(141, 141, 141);
+        width: 100%;
+        }
+
+        .table thead td {
+            vertical-align: middle;
+            border: 3px solid rgb(51, 51, 51);
+            padding: 0.5rem;
+            color: white;
+            border-top:none;
+            border-bottom:none;
+            width: calc(100% / 6);
+        }
+
+        
+    .table tfoot {
+        width: 100%;
+        color: black;
+        }
+
+        .table tfoot tr {
+            border-top: 5px solid rgb(185, 0, 0);
+        }
+
+
+        .table tfoot td {
+            vertical-align: middle;
+            border: 3px solid rgb(162, 162, 162);
+            padding: 1rem;
+            border-top:none;
+            border-bottom:none;
+            /* border-collapse: collapse; */
+            width: calc(100% / 6);
+        }
+
+        .table tfoot button {
+            color: rgb(255, 255, 255);
+            background-color: rgb(200, 0, 0);
+            border: none;
+            font-size: 1.2rem;
+            border-radius: 6px;
+            padding: 0.5rem 0.8rem;
+        }
+
+        .table tfoot input {
+            font-size: 1.2rem;
+            height: 3rem;
+            width: 100%;
+            border: 1px solid rgb(200, 200, 200);
+            border-radius: 6px;
+        }
+
+
+#col1, #col3 {
+    border-left: none;
+}
+
+#col2, #col4 {
+    border-right: none;
+}
+
+#col3 button {
+    cursor: pointer;
+}
+

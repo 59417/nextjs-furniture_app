@@ -1,0 +1,32 @@
+.form {
+    background-color:grey;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+    max-width: 20rem;
+    text-align: center;
+    }
+
+
+    .form div {
+        margin: 1rem 0.5rem; 
+    }
+
+    .form input {
+        margin-left: 0.5rem;
+    }
+
+    .form button {
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        min-width: 5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        font-weight: 500;
+        background-color: rgb(206, 206, 206);
+    }
+
+    

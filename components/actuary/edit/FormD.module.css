@@ -1,0 +1,13 @@
+#form4 {
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+
+#form4 thead {
+    background-color: #774355;
+}
+
+#form4 tbody td {
+    border: 1px solid #774355;
+    width: calc(100% / 6);
+}

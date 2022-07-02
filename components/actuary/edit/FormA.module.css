@@ -1,0 +1,17 @@
+#form1 {
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+
+#form1 thead {
+    background-color: #7b6863;
+}
+
+#form1 tbody td {
+    border: 1px solid #7b6863;
+    width: calc(100% / 8);
+}
+
+#form1 button {
+    padding: 0 1rem;
+}

@@ -1,0 +1,32 @@
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem auto;
+    background-color: #fff;
+    }
+
+    .tab {
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+        padding: 0 0.3rem;
+        margin: 0 0.5rem;
+        border-radius: 5px;
+        transition: 0.1s;
+        }
+
+        .tab_title {
+            font-size: 1.2rem;
+            color: #774355b0,
+        }
+
+.tabs i {
+    cursor: pointer;
+    margin: 0 0.3rem; 
+}
+
+.tabs i:hover {
+    color: #6b5345;
+}
+

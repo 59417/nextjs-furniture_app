@@ -1,0 +1,111 @@
+.container {
+    max-width: 1440px;
+    margin: auto;
+    position: relative; 
+}
+
+    .wrapper {
+        background-color: rgb(51,51,51);
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        color: white;
+        height: 5rem;
+        }
+
+        .logo {
+            flex: 1;
+            margin-right: 1rem;
+        }
+
+        .mylogo {
+            flex: 1;
+            margin-right: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+
+        .wrapper nav {
+            flex: 5;
+        }
+
+        .wrapper ol {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .wrapper li {
+            list-style: none;
+            font-size: 1.5rem;
+            border-left: 1px solid rgb(108, 108, 108);
+            min-width: 25%;
+            text-align: center;
+           
+        }
+
+        .wrapper span {
+            cursor: pointer;
+        }
+
+        .account {
+            font-size: 1.5rem;
+            flex: 0.5;
+            border-left: 1px solid rgb(108, 108, 108);
+            cursor: pointer;
+            text-align: center;
+            padding-left: 1rem;
+            }
+
+    .panel {
+        display: none;
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        position: absolute;
+        right: 0.5rem;
+        top: 5rem;
+        }
+
+        .info {
+            float: right;
+            font-size: 1.5rem;
+            border-left: 1px solid rgb(108, 108, 108);
+            text-align: center;
+            display: grid;
+            width: 16%;
+            min-width: 250px;
+            min-height: 250px;
+            padding: 1.5rem;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(108, 108, 108);
+            border-radius: 10px;
+            margin-top: 0.5rem;
+        }
+
+        .info i {
+            background-color:rgb(250, 250, 250);
+            padding: 1.5rem 0;
+            width: 6rem;
+            height: 6rem;
+            border-radius: 3rem;
+            justify-self: center;
+        }
+
+        .info a {
+            font-size: 2rem;
+            color: white;
+            margin: 1.5rem 0;
+            cursor: default;
+        }
+
+        .info button {
+            font-size: 1.2rem;
+            border: 3px solid rgb(255, 148, 148);
+            border-radius: 2rem;
+            cursor: pointer;
+        }
+
+

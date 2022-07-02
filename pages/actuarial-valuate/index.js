@@ -1,9 +1,8 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import ActuarialValuate from '../components/actuary/list/ActuarialValuate';
+import styles from '../../styles/Home.module.css';
 
 
-export default function Home() {
+export default function QuotationHome() {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,8 +11,8 @@ export default function Home() {
         <meta name="description" content="The appraisal system of Woobetter furniture store" />
       </Head>
       <main className={styles.main}>
-        <ActuarialValuate />
+
       </main>
     </div>
   )
-}
+};
