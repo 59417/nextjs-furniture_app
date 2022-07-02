@@ -33,12 +33,12 @@ function AllFuchu() {
 };
 
 export async function getStaticPaths () {
-
+    const clientsArr = DUMMY_DATA_CLIENT2.map(obj => Object.keys(obj)[0]);
     return {
         fallback: 'blocking', 
-        paths: DUMMY_DATA.map(item => ({
+        paths: clientsArr.map(ele => ({
             params: {
-                quotationId: item.id.toString(),
+                quotationId: ele.toString(),
             }
         }))
     }

@@ -1,0 +1,86 @@
+(base) a17@17de-MBP woobetter-fuchu % gh auth login
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Paste an authentication token
+Tip: you can generate a Personal Access Token here https://github.com/settings/tokens
+The minimum required scopes are 'repo', 'read:org', 'workflow'.
+? Paste your authentication token: ****************************************
+- gh config set -h github.com git_protocol https
+✓ Configured git protocol
+✓ Logged in as 59417
+
+
+A new release of gh is available: 2.9.0 → v2.13.0
+To upgrade, run: brew update && brew upgrade gh
+https://github.com/cli/cli/releases/tag/v2.13.0
+
+(base) a17@17de-MBP woobetter-fuchu % gh repo create nextjs-furniture_app --public
+✓ Created repository 59417/nextjs-furniture_app on GitHub
+(base) a17@17de-MBP woobetter-fuchu % gh auth logout
+? Are you sure you want to log out of github.com account '59417'? Yes
+✓ Logged out of github.com account '59417'
+(base) a17@17de-MBP woobetter-fuchu % git remote -v
+(base) a17@17de-MBP woobetter-fuchu % git add .
+(base) a17@17de-MBP woobetter-fuchu % git commit -m "Next.js furniture app for deployment"
+[main 1749de0] Next.js furniture app for deployment
+ 51 files changed, 7746 insertions(+), 406 deletions(-)
+ create mode 100644 components/actuary/edit/ExportAllForm.js
+ create mode 100644 components/actuary/edit/ExportAllForm.module.css
+ create mode 100644 components/actuary/edit/FormA.js
+ create mode 100644 components/actuary/edit/FormA.module.css
+ create mode 100644 components/actuary/edit/FormB.js
+ create mode 100644 components/actuary/edit/FormB.module.css
+ create mode 100644 components/actuary/edit/FormC.js
+ create mode 100644 components/actuary/edit/FormC.module.css
+ create mode 100644 components/actuary/edit/FormCommon.module.css
+ create mode 100644 components/actuary/edit/FormD.js
+ create mode 100644 components/actuary/edit/FormD.module.css
+ create mode 100644 components/actuary/edit/FormDChild.js
+ create mode 100644 components/actuary/edit/FormDChild.module.css
+ create mode 100644 components/actuary/edit/FormDPage.js
+ create mode 100644 components/actuary/edit/FormDPage.module.css
+ create mode 100644 components/actuary/list/ActuarialValuate.js
+ create mode 100644 components/actuary/list/ActuarialValuate.module.css
+ create mode 100644 components/actuary/list/Quotation.js
+ create mode 100644 components/actuary/list/Quotation.module.css
+ create mode 100644 components/export-form/AllFuchuExport.js
+ create mode 100644 components/export-form/AllFuchuExport.module.css
+ create mode 100644 components/export-form/AllWooExport.js
+ create mode 100644 components/export-form/AllWooExport.module.css
+ create mode 100644 components/export-form/OneFuchuExport.js
+ create mode 100644 components/export-form/OneFuchuExport.module.css
+ create mode 100644 components/export-form/OneWooExport.js
+ create mode 100644 components/export-form/OneWooExport.module.css
+ create mode 100644 components/layout/Layout.js
+ create mode 100644 components/layout/Layout.module.css
+ create mode 100644 components/login/Login.js
+ create mode 100644 components/login/Login.module.css
+ create mode 100644 pages/actuarial-valuate/[quotationId]/[roomId]/index.js
+ create mode 100644 pages/actuarial-valuate/[quotationId]/export-quotation/all-room/fuchu.js
+ create mode 100644 pages/actuarial-valuate/[quotationId]/export-quotation/all-room/woobetter.js
+ create mode 100644 pages/actuarial-valuate/[quotationId]/export-quotation/individual/fuchu.js
+ create mode 100644 pages/actuarial-valuate/[quotationId]/export-quotation/individual/woobetter.js
+ create mode 100644 pages/actuarial-valuate/[quotationId]/index.js
+ create mode 100644 pages/actuarial-valuate/index.js
+ delete mode 100644 pages/api/hello.js
+ rewrite pages/index.js (91%)
+ create mode 100644 pages/login.js
+ delete mode 100644 public/favicon.ico
+ create mode 100644 public/houses.png
+ delete mode 100644 public/vercel.svg
+ rewrite styles/Home.module.css (98%)
+ create mode 100644 styles/app.scss
+(base) a17@17de-MBP woobetter-fuchu % git branch -M main
+(base) a17@17de-MBP woobetter-fuchu % git remote add origin git@github.com:59417/nextjs-furniture_app.git
+(base) a17@17de-MBP woobetter-fuchu % git push -u origin main
+枚舉物件: 84, 完成.
+物件計數中: 100% (84/84), 完成.
+使用 2 個執行緒進行壓縮
+壓縮物件中: 100% (79/79), 完成.
+寫入物件中: 100% (84/84), 151.24 KiB | 1.12 MiB/s, 完成.
+總共 84 (差異 18)，復用 0 (差異 0)，重用包 0
+remote: Resolving deltas: 100% (18/18), done.
+To github.com:59417/nextjs-furniture_app.git
+ * [new branch]      main -> main
+分支 'main' 設定為追蹤來自 'origin' 的遠端分支 'main'。
