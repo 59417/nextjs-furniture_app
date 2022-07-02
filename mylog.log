@@ -84,3 +84,23 @@ remote: Resolving deltas: 100% (18/18), done.
 To github.com:59417/nextjs-furniture_app.git
  * [new branch]      main -> main
 分支 'main' 設定為追蹤來自 'origin' 的遠端分支 'main'。
+
+
+------------------ v2 -------------------
+
+(base) a17@17de-MBP woobetter-fuchu % git add .
+(base) a17@17de-MBP woobetter-fuchu % git commit -m "Fix export-quotation pages getStaticPaths"
+[main 48d91a4] Fix export-quotation pages getStaticPaths
+ 5 files changed, 98 insertions(+), 12 deletions(-)
+ create mode 100644 mylog.log
+(base) a17@17de-MBP woobetter-fuchu % git push -u origin main
+枚舉物件: 24, 完成.
+物件計數中: 100% (24/24), 完成.
+使用 2 個執行緒進行壓縮
+壓縮物件中: 100% (13/13), 完成.
+寫入物件中: 100% (13/13), 2.50 KiB | 2.50 MiB/s, 完成.
+總共 13 (差異 6)，復用 0 (差異 0)，重用包 0
+remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
+To github.com:59417/nextjs-furniture_app.git
+   1749de0..48d91a4  main -> main
+分支 'main' 設定為追蹤來自 'origin' 的遠端分支 'main'。
